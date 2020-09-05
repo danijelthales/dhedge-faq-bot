@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Synthetix.Exchange",
+    "desc": "General question the exchange and synths",
+    "questions": [
+      18,
+      20,
+      26,
+      29,
+      30,
+      31,
+      34,
+      39,
+      41,
+      46,
+      47,
+      48,
+      49,
+      50,
+      66
+    ]
+  },
+  {
+    "name": "Prices",
+    "desc": "Question about current gas, SNX and synths prices",
+    "questions": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Transactions&Gas",
+    "desc": "Question about failing transactions and their gas limits",
+    "questions": [
+      21,
+      23,
+      25,
+      26,
+      27,
+      45,
+      51,
+      71
+    ]
+  },
+  {
+    "name": "Wallet&dApps",
+    "desc": "Question about supported wallets and dApps",
+    "questions": [
+      24,
+      28,
+      36,
+      51,
+      68
+    ]
+  }
+]
