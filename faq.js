@@ -97,7 +97,7 @@ client.on("guildMemberAdd", function (member) {
 
 client.on("message", msg => {
 
-        if (!msg.author.username.includes("FAQ")) {
+        if (!msg.author.username.toUpperCase().includes("FAQ")) {
             if (!(msg.channel.type == "dm")) {
                 // this is logic for channels
                 if (msg.content.toLowerCase().trim() == "!faq") {
@@ -254,6 +254,7 @@ client.on("message", msg => {
                     }
                 } catch (e) {
                     msg.reply("Unknown error ocurred.  Try **help** to see what I do know, or if you want to ask a custom question, make sure it ends with a question mark **?**");
+                    console.log(e);
                 }
             }
         }
