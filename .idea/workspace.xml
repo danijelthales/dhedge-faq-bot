@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab13446-dd29-468c-9420-3908eee339c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answers/13.json" beforeDir="false" afterPath="$PROJECT_DIR$/answers/13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answers/14.json" beforeDir="false" afterPath="$PROJECT_DIR$/answers/14.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,37 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/faq.js">
+        <entry file="file://$PROJECT_DIR$/answers/14.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/questions/10.txt">
+        <entry file="file://$PROJECT_DIR$/answers/13.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/categories/aliases.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/categories/categories.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,6 +40,8 @@
     <findStrings>
       <find>clientFaqPrice</find>
       <find>docalc</find>
+      <find>countdown</find>
+      <find>200</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,8 +61,6 @@
         <option value="$PROJECT_DIR$/answers/6.json" />
         <option value="$PROJECT_DIR$/answers/10.json" />
         <option value="$PROJECT_DIR$/answers/11.json" />
-        <option value="$PROJECT_DIR$/answers/13.json" />
-        <option value="$PROJECT_DIR$/answers/14.json" />
         <option value="$PROJECT_DIR$/answers/15.json" />
         <option value="$PROJECT_DIR$/questions/1.txt" />
         <option value="$PROJECT_DIR$/questions/2.txt" />
@@ -94,6 +77,8 @@
         <option value="$PROJECT_DIR$/categories/aliases.json" />
         <option value="$PROJECT_DIR$/categories/categories.json" />
         <option value="$PROJECT_DIR$/faq.js" />
+        <option value="$PROJECT_DIR$/answers/13.json" />
+        <option value="$PROJECT_DIR$/answers/14.json" />
       </list>
     </option>
   </component>
@@ -179,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1599347662709</updated>
       <workItem from="1599347663958" duration="6050000" />
-      <workItem from="1599597613716" duration="1850000" />
+      <workItem from="1599597613716" duration="2024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7900000" />
+    <option name="totallyTimeSpent" value="8074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -375,20 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answers/13.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/14.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/15.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -450,8 +421,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
+        <state relative-caret-position="273">
+          <caret line="217" column="54" lean-forward="true" selection-start-line="217" selection-start-column="54" selection-end-line="217" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/13.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/14.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
