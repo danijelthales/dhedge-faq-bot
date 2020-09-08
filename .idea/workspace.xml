@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab13446-dd29-468c-9420-3908eee339c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/answers/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/14.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/15.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pool.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/aliases.json" beforeDir="false" afterPath="$PROJECT_DIR$/categories/aliases.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/categories/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/faq.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faq.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questions/10.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/categories/categories.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="442">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -85,7 +69,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/faq.js" />
         <option value="$PROJECT_DIR$/answers/1.json" />
         <option value="$PROJECT_DIR$/answers/3.json" />
         <option value="$PROJECT_DIR$/answers/2.json" />
@@ -110,6 +93,7 @@
         <option value="$PROJECT_DIR$/questions/15.txt" />
         <option value="$PROJECT_DIR$/categories/aliases.json" />
         <option value="$PROJECT_DIR$/categories/categories.json" />
+        <option value="$PROJECT_DIR$/faq.js" />
       </list>
     </option>
   </component>
@@ -141,16 +125,6 @@
               <item name="dhedge-faq-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="dhedge-faq-bot" type="462c0819:PsiDirectoryNode" />
               <item name="answers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dhedge-faq-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dhedge-faq-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dhedge-faq-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dhedge-faq-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +179,12 @@
       <option name="presentableId" value="Default" />
       <updated>1599347662709</updated>
       <workItem from="1599347663958" duration="6050000" />
-      <workItem from="1599597613716" duration="1601000" />
+      <workItem from="1599597613716" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7651000" />
+    <option name="totallyTimeSpent" value="7900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,13 +252,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile" />
-    <entry file="file://$PROJECT_DIR$/faq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="256" column="35" selection-start-line="256" selection-start-column="35" selection-end-line="256" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -476,8 +443,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/categories/categories.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="442">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="685" lean-forward="true" selection-start-line="685" selection-end-line="685" />
         </state>
       </provider>
     </entry>
