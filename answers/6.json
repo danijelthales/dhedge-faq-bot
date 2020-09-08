@@ -1,0 +1,13 @@
+{
+  "title": "Question 6:",
+  "description": "What assets are available to pool managers?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer",
+      "value": "Traders may trade among 42 assets listed on Synthetix with the ability to go long and short crypto assets. FX, crypto assets, legacy finance equity indices, and an expanding list of commodities are also at the disposal of dHedge traders. The Synthetix protocol already has binary options available and will soon provide traders with enhanced tooling such as futures, leverage, and stocks like sAAPL and sTSLA."
+    }
+  ],
+  "footer": {}
+}
+

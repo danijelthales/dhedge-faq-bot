@@ -1,5 +1,22 @@
 [
   {
+    "name": "dHedge",
+    "desc": "General question the exchange and synths",
+    "questions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10,
+      11,
+      13,
+      14,
+      15
+    ]
+  },
+  {
     "name": "Synthetix.Exchange",
     "desc": "General question the exchange and synths",
     "questions": [

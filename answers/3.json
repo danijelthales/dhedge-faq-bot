@@ -1,0 +1,14 @@
+{
+  "title": "Question 3:",
+  "description": "How do I create a pool? ",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer",
+      "value": "You can start your trading pool in less than five minutes. On [site](https://app.dhedge.org/), you can create a pool by connecting your Web 3 wallet, entering the details about your fund including the pool name and manager name, stocking the pool with an initial set of your own capital, and making a few approvals in your Web 3 wallet. The total cost of standing up a pool are the gas costs required for interacting with the dHedge smart contracts."
+    }
+  ],
+  "footer": {},
+  "image": "pool.PNG"
+}
+

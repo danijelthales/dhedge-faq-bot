@@ -1,7 +1,47 @@
 [
   {
-    "number": 7,
-    "alias": "gas price"
+    "number": 1,
+    "alias": "dhedge"
+  },
+  {
+    "number": 2,
+    "alias": "pool"
+  },
+  {
+    "number": 3,
+    "alias": "create pool"
+  },
+  {
+    "number": 4,
+    "alias": "minimum pool"
+  },
+  {
+    "number": 5,
+    "alias": "pool who"
+  },
+  {
+    "number": 6,
+    "alias": "assets"
+  },
+  {
+    "number": 10,
+    "alias": "invest who"
+  },
+  {
+    "number": 11,
+    "alias": "invest how"
+  },
+  {
+    "number": 13,
+    "alias": "rug pull"
+  },
+  {
+    "number": 14,
+    "alias": "fees"
+  },
+  {
+    "number": 15,
+    "alias": "dhedge+synthetix"
   },
   {
     "number": 7,

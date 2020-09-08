@@ -1,0 +1,13 @@
+{
+  "title": "Question 5:",
+  "description": "Who can start a pool?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer",
+      "value": "There are no restrictions on who can start their own pool. dHedge enables anyone to have permissionless access to trade and prove themselves against the top traders in the world. Quantitative traders are also encouraged to deploy strategies via a pool and charge performance fees. "
+    }
+  ],
+  "footer": {}
+}
+
