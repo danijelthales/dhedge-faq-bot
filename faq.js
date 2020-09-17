@@ -46,6 +46,9 @@ var kucoinUsd;
 
 var payday = new Date('2020-08-12 10:37');
 
+const clientFaqPrice = new Discord.Client();
+clientFaqPrice.login(process.env.BOT_TOKEN_DHT);
+
 const Synth = class {
     constructor(name, price, gain) {
         this.name = name;
@@ -1518,6 +1521,17 @@ async function getChart(type) {
         console.log(e);
     }
 }
+
+setInterval(function () {
+    clientFaqPrice.guilds.cache.forEach(function (value, key) {
+        try {
+            value.members.cache.get("756117019572568164").setNickname("$" + dhtPrice);
+            value.members.cache.get("756117019572568164").user.setActivity("Ξ" + ethDhtPrice + " ₿" + btcDhtPrice, {type: 'PLAYING'});
+        } catch (e) {
+            console.log(e);
+        }
+    });
+}, 30 * 1000);
 
 setTimeout(function () {
     try {

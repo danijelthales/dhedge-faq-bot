@@ -18,8 +18,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="925" column="25" lean-forward="true" selection-start-line="925" selection-start-column="25" selection-end-line="925" selection-end-column="25" />
+            <state relative-caret-position="99">
+              <caret line="1522" column="1" lean-forward="true" selection-start-line="1522" selection-start-column="1" selection-end-line="1522" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -46,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clientFaqPrice</find>
       <find>docalc</find>
       <find>countdown</find>
       <find>200</find>
@@ -55,6 +63,8 @@
       <find>aliases</find>
       <find>ethPrice</find>
       <find>dhtPrice</find>
+      <find>show chart</find>
+      <find>clientFaqPrice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,7 +74,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/questions/9.txt" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/answers/1.json" />
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/answers/13.json" />
         <option value="$PROJECT_DIR$/answers/14.json" />
         <option value="$PROJECT_DIR$/answers/9.json" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/faq.js" />
       </list>
     </option>
@@ -103,8 +113,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
     <option name="width" value="1932" />
     <option name="height" value="1045" />
   </component>
@@ -186,18 +196,18 @@
       <workItem from="1599597613716" duration="3222000" />
       <workItem from="1599725692018" duration="41000" />
       <workItem from="1600080322734" duration="1245000" />
-      <workItem from="1600341444690" duration="864000" />
+      <workItem from="1600341444690" duration="1579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11422000" />
+    <option name="totallyTimeSpent" value="12137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,7 +217,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,13 +255,6 @@
     <entry file="file://$PROJECT_DIR$/answers/27.json" />
     <entry file="file://$PROJECT_DIR$/answers/22.json" />
     <entry file="file://$PROJECT_DIR$/answers/19.json" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/71.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -459,10 +462,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="925" column="25" lean-forward="true" selection-start-line="925" selection-start-column="25" selection-end-line="925" selection-end-column="25" />
+        <state relative-caret-position="99">
+          <caret line="1522" column="1" lean-forward="true" selection-start-line="1522" selection-start-column="1" selection-end-line="1522" selection-end-column="1" />
         </state>
       </provider>
     </entry>
