@@ -21,9 +21,11 @@ var tknPrice = 0.77;
 var swthPrice = 0.063;
 var crvPrice = 3.84;
 
+var ethPrice = 380;
+
 var dhtPrice = 1.92;
-var ethPrice = 0.00506203;
-var btcPrice = 0.00017752;
+var ethDhtPrice = 0.00506203;
+var btcDhtPrice = 0.00017752;
 
 var mintGas = 993602;
 var claimGas = 1092941;
@@ -619,8 +621,8 @@ client.on("message", msg => {
                 } else if (command == "9") {
 
                     exampleEmbed.addField("USD", dhtPrice, false);
-                    exampleEmbed.addField("ETH", ethPrice, false);
-                    exampleEmbed.addField("BTC", btcPrice, false);
+                    exampleEmbed.addField("ETH", ethDhtPrice, false);
+                    exampleEmbed.addField("BTC", btcDhtPrice, false);
                     if (doReply) {
                         msg.reply(exampleEmbed);
                     } else {
@@ -919,8 +921,8 @@ setInterval(function () {
             try {
                 let result = JSON.parse(data);
                 dhtPrice = result.market_data.current_price.usd;
-                ethPrice = result.market_data.current_price.eth;
-                btcPrice = result.market_data.current_price.btc;
+                ethDhtPrice = result.market_data.current_price.eth;
+                btcDhtPrice = result.market_data.current_price.btc;
             } catch (e) {
                 console.log(e);
             }

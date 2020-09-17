@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab13446-dd29-468c-9420-3908eee339c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/answers/9.json" beforeDir="false" afterPath="$PROJECT_DIR$/answers/9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/faq.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="619" lean-forward="true" selection-start-line="619" selection-end-line="619" />
+            <state relative-caret-position="201">
+              <caret line="925" column="25" lean-forward="true" selection-start-line="925" selection-start-column="25" selection-end-line="925" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/categories/aliases.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -45,6 +52,9 @@
       <find>200</find>
       <find>snxPrice</find>
       <find>&quot;7&quot;</find>
+      <find>aliases</find>
+      <find>ethPrice</find>
+      <find>dhtPrice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,6 +127,11 @@
               <item name="dhedge-faq-bot" type="462c0819:PsiDirectoryNode" />
               <item name="answers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dhedge-faq-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhedge-faq-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,18 +186,18 @@
       <workItem from="1599597613716" duration="3222000" />
       <workItem from="1599725692018" duration="41000" />
       <workItem from="1600080322734" duration="1245000" />
-      <workItem from="1600341444690" duration="507000" />
+      <workItem from="1600341444690" duration="864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11065000" />
+    <option name="totallyTimeSpent" value="11422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -192,7 +207,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -409,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/categories/aliases.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/categories/categories.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -444,10 +452,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/categories/aliases.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="619" lean-forward="true" selection-start-line="619" selection-end-line="619" />
+        <state relative-caret-position="201">
+          <caret line="925" column="25" lean-forward="true" selection-start-line="925" selection-start-column="25" selection-end-line="925" selection-end-column="25" />
         </state>
       </provider>
     </entry>
