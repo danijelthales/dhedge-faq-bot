@@ -16,11 +16,15 @@ var gasPrice = 240;
 var fastGasPrice = 300;
 var lowGasPrice = 200;
 var instantGasPrice = 350;
-var ethPrice = 360;
+
 var tknPrice = 0.77;
 var swthPrice = 0.063;
 var crvPrice = 3.84;
-var snxPrice = 6.9;
+
+var dhtPrice = 1.92;
+var ethPrice = 0.00506203;
+var btcPrice = 0.00017752;
+
 var mintGas = 993602;
 var claimGas = 1092941;
 var periodVolume = "$33,026,800";
@@ -614,11 +618,9 @@ client.on("message", msg => {
 
                 } else if (command == "9") {
 
-                    exampleEmbed.addField("USD (binance)", binanceUsd, false);
-                    exampleEmbed.addField("USD (kucoin)", kucoinUsd, false);
-                    exampleEmbed.addField("USD (coingecko)", coingeckoUsd, false);
-                    exampleEmbed.addField("ETH (coingecko):", coingeckoEth, false);
-                    exampleEmbed.addField("BTC (coingecko):", coingeckoBtc, false);
+                    exampleEmbed.addField("USD", dhtPrice, false);
+                    exampleEmbed.addField("ETH", ethPrice, false);
+                    exampleEmbed.addField("BTC", btcPrice, false);
                     if (doReply) {
                         msg.reply(exampleEmbed);
                     } else {
@@ -904,7 +906,7 @@ setInterval(function () {
 }, 60 * 1000);
 
 setInterval(function () {
-    https.get('https://api.coingecko.com/api/v3/coins/havven', (resp) => {
+    https.get('https://api.coingecko.com/api/v3/coins/dhedge-dao', (resp) => {
         let data = '';
 
         // A chunk of data has been recieved.
@@ -916,7 +918,9 @@ setInterval(function () {
         resp.on('end', () => {
             try {
                 let result = JSON.parse(data);
-                snxPrice = result.market_data.current_price.usd;
+                dhtPrice = result.market_data.current_price.usd;
+                ethPrice = result.market_data.current_price.eth;
+                btcPrice = result.market_data.current_price.btc;
             } catch (e) {
                 console.log(e);
             }
