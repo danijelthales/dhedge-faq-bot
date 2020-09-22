@@ -4,8 +4,8 @@
   "description": "",
   "main": "faq.js",
   "scripts": {
-    "start": "node faq.js",
-    "dev": "nodemon faq.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
