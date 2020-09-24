@@ -23,7 +23,7 @@ var crvPrice = 3.84;
 
 var ethPrice = 380;
 
-var dhtPrice = 1.92;
+var dhtPrice = 1;
 var ethDhtPrice = 0.00506203;
 var btcDhtPrice = 0.00017752;
 
@@ -935,7 +935,7 @@ setInterval(function () {
         console.log("Error: " + err.message);
     });
 
-}, 60 * 1000);
+}, 30 * 1000);
 
 
 function handleGasSubscription() {
@@ -1531,7 +1531,7 @@ setInterval(function () {
             console.log(e);
         }
     });
-}, 30 * 1000);
+}, 60 * 1000);
 
 setTimeout(function () {
     try {
