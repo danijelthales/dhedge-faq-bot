@@ -17,10 +17,6 @@ var fastGasPrice = 300;
 var lowGasPrice = 200;
 var instantGasPrice = 350;
 
-var tknPrice = 0.77;
-var swthPrice = 0.063;
-var crvPrice = 3.84;
-
 var ethPrice = 380;
 
 var dhtPrice = 1;
@@ -820,85 +816,6 @@ setInterval(function () {
             try {
                 let result = JSON.parse(data);
                 ethPrice = result.market_data.current_price.usd;
-            } catch (e) {
-                console.log(e);
-            }
-        });
-
-    }).on("error", (err) => {
-        console.log("Error: " + err.message);
-    });
-
-}, 60 * 1000);
-
-setInterval(function () {
-    https.get('https://api.coingecko.com/api/v3/coins/tokencard', (resp) => {
-        let data = '';
-
-        // A chunk of data has been recieved.
-        resp.on('data', (chunk) => {
-            data += chunk;
-        });
-
-        // The whole response has been received. Print out the result.
-        resp.on('end', () => {
-            try {
-                let result = JSON.parse(data);
-                tknPrice = result.market_data.current_price.usd;
-                tknPrice = Math.round(((tknPrice * 1.0) + Number.EPSILON) * 100) / 100;
-            } catch (e) {
-                console.log(e);
-            }
-        });
-
-    }).on("error", (err) => {
-        console.log("Error: " + err.message);
-    });
-
-}, 60 * 1000);
-
-setInterval(function () {
-    https.get('https://api.coingecko.com/api/v3/coins/switcheo', (resp) => {
-        let data = '';
-
-        // A chunk of data has been recieved.
-        resp.on('data', (chunk) => {
-            data += chunk;
-        });
-
-        // The whole response has been received. Print out the result.
-        resp.on('end', () => {
-            try {
-                let result = JSON.parse(data);
-                swthPrice = result.market_data.current_price.usd;
-                swthPrice = Math.round(((swthPrice * 1.0) + Number.EPSILON) * 1000) / 1000;
-            } catch (e) {
-                console.log(e);
-            }
-
-        });
-
-    }).on("error", (err) => {
-        console.log("Error: " + err.message);
-    });
-
-}, 60 * 1000);
-
-setInterval(function () {
-    https.get('https://api.coingecko.com/api/v3/coins/curve-dao-token', (resp) => {
-        let data = '';
-
-        // A chunk of data has been recieved.
-        resp.on('data', (chunk) => {
-            data += chunk;
-        });
-
-        // The whole response has been received. Print out the result.
-        resp.on('end', () => {
-            try {
-                let result = JSON.parse(data);
-                crvPrice = result.market_data.current_price.usd;
-                crvPrice = Math.round(((crvPrice * 1.0) + Number.EPSILON) * 100) / 100;
             } catch (e) {
                 console.log(e);
             }
