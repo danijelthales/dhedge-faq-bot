@@ -1380,12 +1380,16 @@ setInterval(function () {
 
             // The whole response has been received. Print out the result.
             resp.on('end', () => {
-                let result = JSON.parse(data);
-                coingeckoUsd = result.market_data.current_price.usd;
-                coingeckoEth = result.market_data.current_price.eth;
-                coingeckoEth = Math.round(((coingeckoEth * 1.0) + Number.EPSILON) * 1000) / 1000;
-                coingeckoBtc = result.market_data.current_price.btc;
-                coingeckoBtc = Math.round(((coingeckoBtc * 1.0) + Number.EPSILON) * 1000000) / 1000000;
+                try {
+                    let result = JSON.parse(data);
+                    coingeckoUsd = result.market_data.current_price.usd;
+                    coingeckoEth = result.market_data.current_price.eth;
+                    coingeckoEth = Math.round(((coingeckoEth * 1.0) + Number.EPSILON) * 1000) / 1000;
+                    coingeckoBtc = result.market_data.current_price.btc;
+                    coingeckoBtc = Math.round(((coingeckoBtc * 1.0) + Number.EPSILON) * 1000000) / 1000000;
+                } catch (e) {
+                    console.log(e);
+                }
             });
 
         }).on("error", (err) => {
