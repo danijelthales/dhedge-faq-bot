@@ -958,14 +958,19 @@ async function getSnxToolStaking() {
 
         /** @type {string[]} */
         var prices = await page.evaluate(() => {
-            var div = document.querySelectorAll('span.text-white');
+            try {
+                var div = document.querySelectorAll('span.text-white');
 
-            var prices = []
-            div.forEach(element => {
-                prices.push(element.textContent);
-            });
+                var prices = []
+                div.forEach(element => {
+                    prices.push(element.textContent);
+                });
 
-            return prices
+                return prices
+            } catch (e) {
+                console.log("Error happened on getting data from SNX tools.");
+                console.log(e);
+            }
         })
 
         snxRewardsPerMinterUsd = prices[3].split(' ')[0] * 1.0;
@@ -993,14 +998,19 @@ async function getSnxToolHome() {
 
         /** @type {string[]} */
         var prices = await page.evaluate(() => {
-            var div = document.querySelectorAll('span.text-2xl');
+            try {
+                var div = document.querySelectorAll('span.text-2xl');
 
-            var prices = []
-            div.forEach(element => {
-                prices.push(element.textContent);
-            });
+                var prices = []
+                div.forEach(element => {
+                    prices.push(element.textContent);
+                });
 
-            return prices
+                return prices
+            } catch (e) {
+                console.log("Error happened on getting data from SNX tools.");
+                console.log(e);
+            }
         })
 
         periodVolume = prices[3];
@@ -1026,14 +1036,16 @@ async function getDashboard() {
 
         /** @type {string[]} */
         var prices = await page.evaluate(() => {
-            var div = document.querySelectorAll('h2');
+
 
             var prices = []
+
+            var div = document.querySelectorAll('.cpEXSW');
             div.forEach(element => {
                 prices.push(element.textContent);
             });
 
-            div = document.querySelectorAll('.pieLegendElement');
+            div = document.querySelectorAll('.iDnUTE div');
             div.forEach(element => {
                 prices.push(element.textContent);
             });
@@ -1041,9 +1053,8 @@ async function getDashboard() {
             return prices
         })
 
-        currentFees = prices[13];
-        unclaimedFees = prices[14];
-        poolDistribution = prices.slice(27, prices.length);
+        currentFees = prices[5];
+        poolDistribution = prices.slice(11, 21);
         browser.close()
     } catch (e) {
         console.log("Error happened on getting data from dashboard")
@@ -1216,74 +1227,6 @@ setInterval(function () {
 
 }, 60 * 1000);
 
-// setInterval(function () {
-//     try {
-//         https.get('https://api.1inch.exchange/v1.1/quote?fromTokenSymbol=sUSD&toTokenSymbol=USDC&amount=10000000000000000000000', (resp) => {
-//             try {
-//                 let data = '';
-//
-//                 // A chunk of data has been recieved.
-//                 resp.on('data', (chunk) => {
-//                     data += chunk;
-//                 });
-//
-//                 // The whole response has been received. Print out the result.
-//                 resp.on('end', () => {
-//                     try {
-//                         let result = JSON.parse(data);
-//                         usdcPeg = Math.round(((result.toTokenAmount / 10000000000) + Number.EPSILON) * 100) / 100;
-//                     } catch
-//                         (e) {
-//                         console.log("Error on fetching 1inch peg: ", e);
-//                     }
-//                 });
-//             } catch
-//                 (e) {
-//                 console.log("Error on fetching 1inch peg: ", e);
-//             }
-//
-//         }).on("error", (err) => {
-//             console.log("Error: " + err.message);
-//         });
-//     } catch
-//         (e) {
-//         console.log("Error on fetching 1inch peg: ", e);
-//     }
-//
-// }, 60 * 1000);
-
-
-// setInterval(function () {
-//     try {
-//         https.get('https://api.1inch.exchange/v1.1/quote?fromTokenSymbol=sUSD&toTokenSymbol=USDT&amount=10000000000000000000000', (resp) => {
-//             let data = '';
-//
-//             // A chunk of data has been recieved.
-//             resp.on('data', (chunk) => {
-//                 data += chunk;
-//             });
-//
-//             // The whole response has been received. Print out the result.
-//             resp.on('end', () => {
-//                 try {
-//                     let result = JSON.parse(data);
-//                     usdtPeg = Math.round(((result.toTokenAmount / 10000000000) + Number.EPSILON) * 100) / 100;
-//                 } catch
-//                     (e) {
-//                     console.log("Error on fetching 1inch peg: ", e);
-//                 }
-//             });
-//
-//         }).on("error", (err) => {
-//             console.log("Error: " + err.message);
-//         });
-//     } catch
-//         (e) {
-//         console.log("Error on fetching 1inch peg: ", e);
-//     }
-//
-// }, 60 * 1000
-// );
 
 setInterval(function () {
     try {
@@ -1397,7 +1340,7 @@ function doShowChart(type, msg, fromDM) {
     try {
         const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#0099ff')
-            .setTitle(type + ' SNX price chart');
+            .setTitle(type + ' DHT price chart');
         exampleEmbed.addField("Possible options:", "realtime, 24H, 7D, 1M, 3M, 6M, YTD, 1Y, ALL");
         exampleEmbed.attachFiles(['charts/chart' + type.toLowerCase() + '.png'])
             .setImage('attachment://' + 'chart' + type.toLowerCase() + '.png');
@@ -1418,7 +1361,7 @@ async function getChart(type) {
         });
         const page = await browser.newPage();
         await page.setViewport({width: 1000, height: 926});
-        await page.goto("https://coincodex.com/crypto/synthetix/?period=" + type, {waitUntil: 'networkidle2'});
+        await page.goto("https://coincodex.com/crypto/dht/?period=" + type, {waitUntil: 'networkidle2'});
         await page.waitForSelector('.chart');
 
         const rect = await page.evaluate(() => {
@@ -1458,10 +1401,14 @@ setTimeout(function () {
     try {
         var increment = 1;
         synthsMap.forEach(function (value, key) {
-            increment += 1;
-            setTimeout(function () {
-                getSynthInfo(value.name)
-            }, 1000 * 10 * increment);
+            try {
+                increment += 1;
+                setTimeout(function () {
+                    getSynthInfo(value.name)
+                }, 1000 * 10 * increment);
+            } catch (e) {
+                console.log(e);
+            }
         });
     } catch (e) {
         console.log(e);
@@ -1472,82 +1419,19 @@ setInterval(function () {
     try {
         var increment = 1;
         synthsMap.forEach(function (value, key) {
-            increment += 1;
-            setTimeout(function () {
-                getSynthInfo(value.name)
-            }, 1000 * 10 * increment);
+            try {
+                increment += 1;
+                setTimeout(function () {
+                    getSynthInfo(value.name)
+                }, 1000 * 10 * increment);
+            } catch (e) {
+                console.log(e);
+            }
         });
     } catch (e) {
         console.log(e);
     }
-}, 1 * 30 * 60 * 1000);
-
-
-setTimeout(function () {
-    try {
-        getChart('realtime');
-    } catch (e) {
-        console.log(e);
-    }
-}, 5 * 1000);
-setTimeout(function () {
-    try {
-        getChart('24H');
-    } catch (e) {
-        console.log(e);
-    }
-}, 8 * 1000);
-setTimeout(function () {
-    try {
-        getChart('7D');
-    } catch (e) {
-        console.log(e);
-    }
-}, 10 * 1000);
-setTimeout(function () {
-    try {
-        getChart('1M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 20 * 1000);
-setTimeout(function () {
-    try {
-        getChart('3M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 30 * 1000);
-setTimeout(function () {
-    try {
-        getChart('6M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 40 * 1000);
-
-setTimeout(function () {
-    try {
-        getChart('YTD');
-    } catch (e) {
-        console.log(e);
-    }
-}, 50 * 1000);
-setTimeout(function () {
-    try {
-        getChart('1Y');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 1000);
-setTimeout(function () {
-    try {
-        getChart('ALL');
-    } catch (e) {
-        console.log(e);
-    }
-}, 70 * 1000);
-
+}, 30 * 60 * 1000);
 
 setInterval(function () {
     try {
@@ -1619,7 +1503,7 @@ setTimeout(function () {
     } catch (e) {
         console.log(e);
     }
-}, 10 * 1000);
+}, 5 * 60 * 1000);
 setInterval(function () {
     try {
         getSnxToolStaking();
@@ -1634,14 +1518,14 @@ setTimeout(function () {
     } catch (e) {
         console.log(e);
     }
-}, 30 * 1000);
+}, 300 * 1000);
 setInterval(function () {
     try {
         getSnxToolHome();
     } catch (e) {
         console.log(e);
     }
-}, 60 * 7 * 1000);
+}, 60 * 17 * 1000);
 
 setTimeout(function () {
     try {
@@ -1649,7 +1533,7 @@ setTimeout(function () {
     } catch (e) {
         console.log(e);
     }
-}, 20 * 1000);
+}, 200 * 1000);
 setInterval(function () {
     try {
         getDashboard();
@@ -1664,7 +1548,7 @@ setTimeout(function () {
     } catch (e) {
         console.log(e);
     }
-}, 40 * 1000);
+}, 400 * 1000);
 setInterval(function () {
     try {
         getExchange();
@@ -1690,21 +1574,3 @@ setInterval(function () {
 
 
 client.login(process.env.BOT_TOKEN);
-
-
-// const ethers = require('ethers');
-// let contractRaw = fs.readFileSync('contracts/Synthetix.json');
-// let contract = JSON.parse(contractRaw);
-//
-// async function getMintrData() {
-//     const provider = ethers.getDefaultProvider("homestead");
-//     const synthetix = new ethers.Contract('0xC011A72400E58ecD99Ee497CF89E3775d4bd732F',
-//         contract, provider);
-//     const transferable = await synthetix.transferableSynthetix('0xa0c2d3ad9c5100a6a5daa03dc6bab01f0d54c361');
-//     console.log(transferable);
-//     let s = transferable.toString();
-//     let number = parseInt(Number(transferable._hex), 10) / 1e18;
-//     console.log(number);
-// }
-//
-// getMintrData();
