@@ -1432,70 +1432,70 @@ setInterval(function () {
         console.log(e);
     }
 }, 30 * 60 * 1000);
-
-setInterval(function () {
-    try {
-        getChart('realtime');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 1000);
-setInterval(function () {
-    try {
-        getChart('24H');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 7 * 1000);
-setInterval(function () {
-    try {
-        getChart('7D');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 10 * 1000);
-setInterval(function () {
-    try {
-        getChart('1M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 20 * 1000);
-setInterval(function () {
-    try {
-        getChart('3M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 25 * 1000);
-setInterval(function () {
-    try {
-        getChart('6M');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 50 * 1000);
-setInterval(function () {
-    try {
-        getChart('YTD');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 50 * 1000);
-setInterval(function () {
-    try {
-        getChart('1Y');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 50 * 1000);
-setInterval(function () {
-    try {
-        getChart('ALL');
-    } catch (e) {
-        console.log(e);
-    }
-}, 60 * 100 * 1000);
+//
+// setInterval(function () {
+//     try {
+//         getChart('realtime');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('24H');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 7 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('7D');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 10 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('1M');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 20 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('3M');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 25 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('6M');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 50 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('YTD');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 50 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('1Y');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 50 * 1000);
+// setInterval(function () {
+//     try {
+//         getChart('ALL');
+//     } catch (e) {
+//         console.log(e);
+//     }
+// }, 60 * 100 * 1000);
 
 setTimeout(function () {
     try {
