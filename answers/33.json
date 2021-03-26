@@ -1,0 +1,12 @@
+{
+  "title": "Question 33:",
+  "description": "When is the snapshot for the staking rewards?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "The first block mined after 15:00 AEST"
+    },
+  ],
+  "footer": {}
+}
