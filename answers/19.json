@@ -1,0 +1,12 @@
+{
+  "title": "Question 19:",
+  "description": "What is the Uber pool?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer",
+      "value": "The [Uber pool](https://app.dhedge.org/governance) is the “pool of pools”, this is where the admin fee is collected.  The Uber pool is governed by DHT stakers."
+    }
+  ],
+  "footer": {}
+}
