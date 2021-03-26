@@ -2,16 +2,11 @@
   "title": "Question 26:",
   "description": "Why did I receive more or less Synths in a trade than I should have?",
   "color": "0099ff",
-  "url": "https://blog.synthetix.io/how-fee-reclamation-rebates-work/",
   "fields": [
     {
       "title": "Answer:",
-      "value": "With on chain prices there is always a risk of frontrunning. To protect stakers from frontrunning exposure a fee reclamation mechanism was introduced. Visit the blog page for detailed explanation."
+      "value": "With on chain prices there is always a risk of frontrunning. To protect SNX stakers from frontrunning exposure a fee reclamation mechanism was introduced. Visit Synthetix [blog](https://blog.synthetix.io/how-fee-reclamation-rebates-work/) page for a detailed explanation."
     },
-    {
-      "title": "For more details visit our blog page:",
-      "value": "[here](https://blog.synthetix.io/how-fee-reclamation-rebates-work/)"
-    }
   ],
   "footer": {}
 }
