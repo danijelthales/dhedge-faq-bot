@@ -5,7 +5,7 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "x =+23"
+      "value": "Total performance = total pool value / ( total token supply + unminted manager performance fee )"
     },
   ],
   "footer": {}
