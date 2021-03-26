@@ -1,21 +1,18 @@
 {
   "title": "Question 46:",
-  "description": "how can I use my sUSD?",
+  "description": "What is the FOX?",
   "color": "0099ff",
-  "url": "https://synthetix.community/docs/susd-tracker",
+  "url": "https://medium.com/dhedge-org/how-we-reduced-ethereum-transaction-costs-by-90-78e5554273c6",
   "fields": [
     {
       "title": "Answer:",
-      "value": "The Synthetix community is [extremely bullish](https://synthetix.community/blog/2020/04/13/the-rise-of-susd) on the potential for sUSD becoming the decentralized stablecoin of choice in the Ethereum/DeFi ecosystem. This page is for aggregating all the projects and protocols building on and integrating sUSD."
+      "value": "The dHEDGE Fast Oracle eXchange (FOX) is a dHEDGE evolution in gas optimisations.  The FOX Oracle talks to an Ethereum node and asks for the most recent block computation results of a specific contract. In this case, it asks for dHEDGE pool data, including relevant Chainlink asset prices\n"
     },
     {
       "title": "\u200b",
-      "value": "[Aave](https://blog.synthetix.io/susd-and-snx-are-now-available-in-aave-protocol-for-lending-and-borrowing/) for lending and borrowing\n[bZX](https://blog.synthetix.io/susd-is-now-available-for-lending-and-borrowing-through-bzx/) for lending and borrowing\n[Curve](https://blog.synthetix.io/susd-liquidity-trial-with-curve-iearn/) for an incentivized stablecoin trading pool\n[Kyber](https://blog.kyber.network/synth-usd-susd-is-now-available-on-kyber-network-7f5e11a550ea) for trading\n[Sablier](https://pay.sablier.finance/) for streaming (by-the-second continuous payments)\n\nAnother Synthetix stablecoin - sAUD - is integrated for payments with [RelayPay](https://blog.synthetix.io/use-saud-for-payments-with-relaypay/) as well."
+      "value": "The FOX then signs the pool data and gives it to the investor who can choose to use the data onchain to execute transactions such as invest or exit with the FOX Swap contract.  The transaction must be executed as a “Fast” transaction, otherwise it will time out.\n\nThe FOX Swap contract then ensures there’s enough pool liquidity to execute theinvest/exit,andsettles the exchange on-chain.
+"
     },
-    {
-      "title": "For more details visit our help page:",
-      "value": "[here](https://synthetix.community/docs/susd-tracker)"
-    }
   ],
   "footer": {}
 }
