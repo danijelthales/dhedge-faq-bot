@@ -1,13 +1,13 @@
 {
   "title": "Question 30:",
-  "description": "How can I see all of the Synths I own?",
+  "description": "How can I see all the Synths in my wallet?",
   "color": "0099ff",
   "fields": [
     {
       "title": "Answer:",
-      "value": "The easiest way is to connect your wallet to https://synthetix.exchange/#/assets/overview \n\nYou will see all of your Synth balances [under](https://synthetix.exchange/#/assets/overview). "
+      "value": "Go [here](https://app.dhedge.org/dashboard) scroll down to wallet synthetic assets. "
     }
   ],
-  "image": "balances.png",
+  "image": "",
   "footer": {}
 }
