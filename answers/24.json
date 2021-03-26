@@ -1,11 +1,11 @@
 {
   "title": "Question 24:",
-  "description": "I don't have MetaMask, Trezor, Ledger, or Coinbase Wallet. How can I use the Synthetix dApps?",
+  "description": "What wallets are supported by dHEDGE?",
   "color": "0099ff",
   "fields": [
     {
       "title": "Answer:",
-      "value": "Unfortunately you do need to use one of these to use our dApps. The easiest way to get started is with Metamask, which is a browser extension. You can import your private key from another wallet to be able to use it through Metamask (instructions [here](https://bitcointalk.org/index.php?topic=3124084.msg32306055#msg32306055))."
+      "value": "MetaMask, WalletConnect, Portis, Fortmatic"
     }
   ],
   "footer": {}
