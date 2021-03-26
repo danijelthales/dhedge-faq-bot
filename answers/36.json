@@ -1,0 +1,12 @@
+{
+  "title": "Question 36:",
+  "description": "How can I convert synths in my wallet to sUSD?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Go [here](https://app.dhedge.org/dashboard), scroll down to wallet synthetic assets. Convert to sUSD"
+    },
+  ],
+  "footer": {}
+}
