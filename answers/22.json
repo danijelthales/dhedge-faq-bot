@@ -1,0 +1,14 @@
+{
+ "title": "Question 22:",
+ "description": "Are dHEDGE contracts Audited?",
+ "color": "0099ff",
+ "fields": [
+   {
+     "title": "Answer",
+ "value": "Yes.\n[(https://iosiro.com/audits/dHEDGE-platform-smart-contract-audit)]\n[(https://iosiro.com/audits/dhedge-differential-smart-contract-audit(]
+"
+   }
+ ],
+ "footer": {}
+}
+
