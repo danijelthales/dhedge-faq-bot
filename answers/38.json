@@ -1,0 +1,12 @@
+{
+  "title": "Question 38:",
+  "description": "What is the DHT token allocation?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Token allocation can be found [here](https://docs.dhedge.org/dht/allocation)"
+    },
+  ],
+  "footer": {}
+}
