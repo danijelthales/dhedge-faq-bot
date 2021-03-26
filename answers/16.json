@@ -1,0 +1,12 @@
+{
+  "title": "Question 16:",
+  "description": "How does the performance fee work?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer",
+      "value": "Each manager can set their own performance fee, which allows them to mint fees on newly generated profits.  Once a fee has been minted this sets a high watermark which must be continuously beaten to mint more fees.  The performance fee is in pool tokens, so the most successful managers gain more share of their own pool.  A mint fee function is called each time an investor enters or exits a pool, also managers can manually call mint fee manually via UI. \n"
+    }
+  ],
+  "footer": {}
+}
