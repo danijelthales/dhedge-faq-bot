@@ -2,9 +2,11 @@
   "title": "Question 18:",
   "description": "Can a manager change the pool from public to private?",
   "color": "0099ff",
+   "fields": [
     {
       "title": "Answer:",
       "value": "A manager can change from public to private or vice versa.  Note: if the pool is changed from public to private current investors will not be withdrawn if they are not whitelisted; they will not be able to add new investments.\n"
     }
+     ],
    "footer": {}
 }
