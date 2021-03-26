@@ -1,11 +1,11 @@
 {
   "title": "Question 20:",
-  "description": "How can I make a trade on Synthetix.Exchange?",
+  "description": "Why are there 2 transactions when investing in a pool?",
   "color": "0099ff",
   "fields": [
     {
       "title": "Answer:",
-      "value": "Go to [Synthetix.Exchange](https://synthetix.exchange) and press on trade on the header. You do need Synths to trade on the exchange, ideally sUSD, which you can acquire on centralised exchanges such as [Kucoin](https://kucoin.com) or [curve](https://www.curve.fi/susdv2/)."
+      "value": "When using ERC20 tokens on the Ethereum network you must approve the specific token to be used by the contract.  First transaction is to approve, the second transaction is the transfer of funds."
     }
   ],
   "footer": {}
