@@ -1,0 +1,12 @@
+{
+  "title": "Question 37:",
+  "description": "Why can’t I trade commodities?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Commodities can only be traded during US market hours."
+    },
+  ],
+  "footer": {}
+}
