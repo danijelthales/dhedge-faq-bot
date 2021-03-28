@@ -1,7 +1,12 @@
 {
   "title": "Question 8:",
-  "description": "What is the current sUSD price?",
+  "description": "Where can I obtain sUSD?",
   "color": "0099ff",
-  "url": "https://www.coingecko.com/en/coins/susd",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Curve, 1inch, Uniswap, SushiSwap and mStable"
+    },
+  ],
   "footer": {}
 }
