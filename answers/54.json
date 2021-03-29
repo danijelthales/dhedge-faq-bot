@@ -1,0 +1,11 @@
+{
+  "title": "Question 54:",
+  "description": "How are the pools ranked on the leaderboard?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "Pools are ranked using the pool score. Pool Score is calculated as:\nPool Score is calculated as:\nSortino Ratio * SQRT(7 Day Average Pool Value).\nPool must be active for at least 4 weeks.\n"
+    },
+  ],
+  "footer":

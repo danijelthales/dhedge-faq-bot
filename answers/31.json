@@ -1,11 +1,11 @@
 {
   "title": "Question 31:",
-  "description": "Where can I find a list of all the contracts?",
+  "description": "How do I stake DHT?",
   "color": "0099ff",
   "fields": [
     {
       "title": "Answer:",
-      "value": "You can find links to all the contracts on all the networks [here](https://developer.synthetix.io/addresses/)\n\nFor the just the token addresses for inclusion to your wallet, they are listed [here](www.synthetix.io/tokens)."
+      "value": "To stake DHT, head [here](https://app.dhedge.org/rewards/staking)\n You will need to enter an amount of DHT to stake as well as a lockup period. Lock-up period is ranging from 1 month to 3 years. The longer you lock-up for the higher your governance and rewards power, vDHT!"
     }
   ],
   "footer": {}

@@ -1,0 +1,13 @@
+{
+  "title": "Question 32:",
+  "description": "What is vDHT?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "This is how vDHT works:\n\nvDHT is based on staked DHT * lock-up time\nvDHT decays linearly over time\nFor example, a user locking-up DHT for 10 months instead of 1 month will have 10 times as many vDHT\nUser can increase amount of DHT locked at any time as well as increase the lock-up time\n\nvDHT declines linearly as lockup time goes to zero. Your governance and earnings power is calculated as vDHT/(Total vDHT).
+"
+    },
+  ],
+  "footer": {}
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Question 44:",
+  "description": "When I withdraw my funds what synths will i receive?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "You will receive your share of the underlying assets owned by the pool, unless you withdraw using the FOX swap.
+"
+    },
+  ],
+  "footer": {}
+}

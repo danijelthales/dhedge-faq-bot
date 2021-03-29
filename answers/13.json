@@ -5,11 +5,11 @@
   "fields": [
     {
       "title": "Answer",
-      "value": "dHedge is a non-custodial platform. This means that dHedge does not take custody of any investor funds nor the funds of pool managers. dHedge provides software infrastructure in the form of smart contracts to enable unprecedented access to new trading strategies and techniques that are otherwise extraordinarily cumbersome and costly to access in legacy finance. \n\nFunds invested into a pool will be held in a smart contract that investors can use as a vehicle to enter and exit the pool. This is the same smart contract that investment managers and bots will rely on trade and rebalance their positions.\n"
+      "value": "dHEDGE is a non-custodial platform. This means that dHedge does not take custody of any investor funds nor the funds of pool managers. dHEDGE provides software infrastructure in the form of smart contracts to enable unprecedented access to new trading strategies and techniques that are otherwise extraordinarily cumbersome and costly to access in legacy finance. \n\nFunds invested into a pool will be held in a smart contract that investors can use as a vehicle to enter and exit the pool. This is the same smart contract that investment managers and bots will rely on trade and rebalance their positions.\n"
     },
     {
       "title": "\u200b",
-      "value": "dHedge core contributors and the dhDAO do not have access to funds in the smart contracts. Consequently, it is imperative for investors to exercise best practices in securing their own funds through their Ethereum wallets. If an investor loses access to a wallet, no actions can be taken by core contributors nor the dhDAO to recover the pool tokens. As pool tokens are ERC-20 tokens, pool tokens can be stored in any wallet supporting the ERC-20 token standard. "
+      "value": "dHEDGE core contributors and the dHEDGE DAO do not have access to funds in the smart contracts. Consequently, it is imperative for investors to exercise best practices in securing their own funds through their Ethereum wallets. If an investor loses access to a wallet, no actions can be taken by core contributors nor the dHEDGE DAO to recover the pool tokens. As pool tokens are ERC-20 tokens, pool tokens can be stored in any wallet supporting the ERC-20 token standard. "
     }
   ],
   "footer": {}

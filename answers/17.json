@@ -1,0 +1,12 @@
+{
+  "title": "Question 17:",
+  "description": "What is the admin fee?",
+  "color": "0099ff",
+  "fields": [
+    {
+      "title": "Answer:",
+      "value": "The admin fee is 10% of the managers performance fee.  This fee is collected in pool tokens which are allocated to the Uber pool.  The Uber pool is governed by DHT stakers. "
+    }
+  ],
+  "footer": {}
+}

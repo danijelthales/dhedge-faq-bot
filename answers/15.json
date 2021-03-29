@@ -1,11 +1,11 @@
 {
   "title": "Question 15:",
-  "description": "How is dHedge related to Synthetix?",
+  "description": "How is dHEDGE related to Synthetix?",
   "color": "0099ff",
   "fields": [
     {
       "title": "Answer",
-      "value": "dHedge is an application for decentralised fund management powered by Synthetix. Synthetix is the underlying protocol that generates synthetic assets by staking collateral, such as the native SNX token or Ether. By pooling together their collateral, SNX stakers support zero slippage functionality on the exchange of synthetic assets by making a reference to a price oracle to reprice the global debt pool. dHedge also uses the Synthetix protocol’s sUSD stablecoin as the base asset for joining pools on dHedge. Read [more](https://www.synthetix.io/) about peer-to-contract infinite liquidity on Synthetix and [join](https://www.synthetix.io/community/) their active Discord server to ask questions and engage with the community. \n"
+      "value": "dHEDGE is an application for decentralised fund management powered by Synthetix. Synthetix is the underlying protocol that generates synthetic assets by staking collateral, such as the native SNX token or Ether. By pooling together their collateral, SNX stakers support zero slippage functionality on the exchange of synthetic assets by making a reference to a price oracle to reprice the global debt pool. dHedge also uses the Synthetix protocol’s sUSD stablecoin as the base asset for joining pools on dHEDGE. Read [more](https://www.synthetix.io/) about peer-to-contract infinite liquidity on Synthetix and [join](https://discord.gg/5vXrPFQw3z) their active Discord server to ask questions and engage with the community. \n"
     }
   ],
   "footer": {}
