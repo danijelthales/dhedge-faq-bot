@@ -5,8 +5,7 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "Only investments into eligible pools count towards rewards. Eligibility criteria is subject to change.  \n\n Pools need to:\n\n1.  Have a positive Sortino Ratio (meaning they have returns above a certain threshold)\n 2.  Have been funded more than 4 weeks ago\n3.  Be Public, ie open to anyone\n\n Eligible pools are clearly marked with a mining symbol on the dHEDGE Leaderboard. Note that Managers that invest in their own pools are considered investors and can earn rewards like everyone else.
-"
+      "value": "Only investments into eligible pools count towards rewards. Eligibility criteria is subject to change.  \n\n Pools need to:\n\n1.  Have a positive Sortino Ratio (meaning they have returns above a certain threshold)\n 2.  Have been funded more than 4 weeks ago\n3.  Be Public, ie open to anyone\n\n Eligible pools are clearly marked with a mining symbol on the dHEDGE Leaderboard. Note that Managers that invest in their own pools are considered investors and can earn rewards like everyone else."
     }
   ],
   "footer": {}
