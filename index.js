@@ -654,37 +654,6 @@ client.on("message", msg => {
                         console.log("Error: " + err.message);
                     });
 
-                } else if (command == "8") {
-
-                    https.get('https://api.coingecko.com/api/v3/coins/nusd', (resp) => {
-                        let data = '';
-
-                        // A chunk of data has been recieved.
-                        resp.on('data', (chunk) => {
-                            data += chunk;
-                        });
-
-                        // The whole response has been received. Print out the result.
-                        resp.on('end', () => {
-                            let result = JSON.parse(data);
-                            exampleEmbed.addField("USD (coingecko)", result.market_data.current_price.usd, false);
-                            exampleEmbed.addField("USDC (1inch)", usdcPeg, false);
-                            exampleEmbed.addField("USDT (1inch)", usdtPeg, false);
-                            if (result.market_data.current_price.usd == 1 && usdcPeg == 1 && usdtPeg == 1) {
-                                exampleEmbed.attachFiles(['images/perfect.jpg'])
-                                    .setImage('attachment://perfect.jpg');
-                            }
-                            if (doReply) {
-                                msg.reply(exampleEmbed);
-                            } else {
-                                msg.channel.send(exampleEmbed);
-                            }
-                        });
-
-                    }).on("error", (err) => {
-                        console.log("Error: " + err.message);
-                    });
-
                 } else if (command == "62") {
 
                     exampleEmbed.addField("Volume in this period:", periodVolume, false);
