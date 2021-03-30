@@ -5,9 +5,8 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "The pool is run by the dHEDGE DAO at 0% fees. It continuously mirrors the distribution of synths within the Synthetix protocol. SNX stakers can use the pool to easily hedge their debt position. It's run by the dHEDGE DAO, who pays for gas costs, as a service to the Synthetix community. dHEDGE wouldn’t be possible without the Synthetix protocol.
-"
-    },
+      "value": "The pool is run by the dHEDGE DAO at 0% fees. It continuously mirrors the distribution of synths within the Synthetix protocol. SNX stakers can use the pool to easily hedge their debt position. It's run by the dHEDGE DAO, who pays for gas costs, as a service to the Synthetix community. dHEDGE wouldn’t be possible without the Synthetix protocol."
+    }
   ],
   "footer": {}
 }

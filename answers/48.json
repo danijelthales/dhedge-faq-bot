@@ -1,12 +1,13 @@
 {
   "title": "Question 48:",
-  "description": "Where can I leave feedback?,
+  "description": "Where can I leave feedback?",
   "color": "0099ff",
   "url": "https://feedback.dhedge.org",
   "fields": [
     {
       "title": "Answer:",
       "value": "Feedback and requested features can be posted here."
-    },
+    }
   ],
-  "footer":
+  "footer": {}
+}

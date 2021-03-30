@@ -6,7 +6,7 @@
     {
       "title": "Answer:",
       "value": "With on chain prices there is always a risk of frontrunning. To protect SNX stakers from frontrunning exposure a fee reclamation mechanism was introduced. Visit Synthetix [blog](https://blog.synthetix.io/how-fee-reclamation-rebates-work/) page for a detailed explanation."
-    },
+    }
   ],
   "footer": {}
 }

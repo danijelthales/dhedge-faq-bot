@@ -5,9 +5,8 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "You will receive your share of the underlying assets owned by the pool, unless you withdraw using the FOX swap.
-"
-    },
+      "value": "You will receive your share of the underlying assets owned by the pool, unless you withdraw using the FOX swap."
+    }
   ],
   "footer": {}
 }
