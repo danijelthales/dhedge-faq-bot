@@ -6,7 +6,7 @@
     {
       "title": "Answer:",
       "value": "Transactions cost a certain amount proportional to how much processing power is required for Ethereum miners to process it. The Synthetix system and tokens are more complex than the majority of other Ethereum projects.  dHEDGE is built on top of Synthetix so its transactions require more gas to be completed. For more info on how gas works on Ethereum, see this [article](https://blockgeeks.com/guides/ethereum-gas/). "
-    },
+    }
   ],
   "footer": {}
 }

@@ -6,7 +6,7 @@
     {
       "title": "Answer:",
       "value": "As gas prices on the Ethereum network increase, transaction costs on the dHEDGE platform increase. The core contributors have worked to make the dHEDGE contracts more gas-efficient, but gas prices on the network are not in the community's control."
-    },
+    }
   ],
   "footer": {},
   "image":"gashole.jpg"

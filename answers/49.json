@@ -5,7 +5,9 @@
   "fields": [
     {
       "title": "Answer:",
+
       "value": "??"
-    },
-  ],
-  "footer":
+    }
+],
+  "footer": {}
+}

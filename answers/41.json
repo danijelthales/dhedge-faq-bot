@@ -6,9 +6,8 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "The Synthetix team has a [good explanation](https://blog.synthetix.io/inverse-synths-are-back/#how-inverse-synths-work-) of how inverse synths work. Synths trade in a range with an upper and lower limit and, if limits are breached by the real-world asset, the synth is disabled and the positions are liquidated into sUSD.
-"
-    },
+      "value": "The Synthetix team has a [good explanation](https://blog.synthetix.io/inverse-synths-are-back/#how-inverse-synths-work-) of how inverse synths work. Synths trade in a range with an upper and lower limit and, if limits are breached by the real-world asset, the synth is disabled and the positions are liquidated into sUSD."
+    }
   ],
   "footer": {}
 }

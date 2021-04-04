@@ -10,7 +10,7 @@
     {
       "title": "\u200b",
       "value": "The FOX then signs the pool data and gives it to the investor who can choose to use the data onchain to execute transactions such as invest or exit with the FOX Swap contract.  The transaction must be executed as a “Fast” transaction, otherwise it will time out.\n\nThe FOX Swap contract then ensures there’s enough pool liquidity to execute the invest/exit, and settles the exchange on-chain.\n[Medium Article](https://medium.com/dhedge-org/how-we-reduced-ethereum-transaction-costs-by-90-78e5554273c6)"
-    },
+    }
   ],
   "footer": {}
 }

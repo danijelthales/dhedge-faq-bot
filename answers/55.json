@@ -6,7 +6,7 @@
     {
       "title": "Answer:",
       "value": "CRYPTO\n\nEthereum (ETH)\nBitcoin (BTC)\nDeFi Index (DEFI)\nCentralised Exchange Index (CEX)\nBinance Coin (BNB)\nChainlink (LINK)\nEOS (EOS)\nTRON (TRX)\nRipple (XRP)\nMonero (XMR)\nLitecoin (LTC)\nTezos (XTZ)\nCardano (ADA)\nDash (DASH)\nEthereum Classic (ETC)\nAave (AAVE)\nCompound (COMP)\nPolkadot (DOT)\nRen (REN)\nUniswap (UNI)\nyearn.finance (YFI)\n\nINVERSE CRYPTO\nInverse Ethereum (iETH)\nInverse Bitcoin (iBTC)\nInverse DeFi Index (iDEFI)\nInverse Centralised Exchange Index (iCEX)\nInverse Binance Coin (iBNB)\nInverse Chainlink (iLINK)\nInverse EOS (iEOS)\nInverse TRON (iTRX)\nInverse Ripple (iXRP)\nInverse Monero (iXMR)\nInverse Litecoin (iLTC)\nInverse Tezos (iXTZ)\nInverse Cardano (iADA)\nInverse Dash (iDASH)\nInverse Ethereum Classic (iETC)\nInverse Aave (iAAVE)\nInverse Compound (iCOMP)\nInverse Polkadot (iDOT)\nInverse Ren (iREN)\nInverse Uniswap (iUNI)\nInverse yearn.finance (iYFI)\n\nCURRENCY\nUS Dollar (sUSD)\nPound Sterling (GBP)\nEuros (EUR)\nJapanese Yen (JPY)\nSwiss Franc (CHF)\n\nCOMMODITIES\nBrent Crude Oil (OIL)\nSilver (XAG)\nGold (XAU)\n\nINVERSE COMMODITIES\nInverse Brent Crude Oil (iOIL)"
-    },
-  ],
+}
+],
   "footer": {}
 }

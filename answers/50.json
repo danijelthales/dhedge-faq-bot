@@ -6,7 +6,7 @@
     {
       "title": "Answer:",
       "value": "We have a twitter bot that alerts you when new funds are deposited, this will also trigger if any pool makes a trade.  [@dHedgeBot](https://twitter.com/dHedgeBot)"
-    },
+    }
   ],
   "footer": {}
 }
