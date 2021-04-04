@@ -5,7 +5,7 @@
   "fields": [
     {
       "title": "Answer:",
-      "value": "To stake DHT, head [here](https://app.dhedge.org/rewards/staking)\n You will need to enter an amount of DHT to stake as well as a lockup period. Lock-up period is ranging from 1 month to 3 years. The longer you lock-up for the higher your governance and rewards power, vDHT!"
+      "value": "To stake DHT, head [here.](https://app.dhedge.org/rewards/staking)\n\nYou will need to enter an amount of DHT to stake as well as a lockup period. Lock-up period is ranging from 1 month to 3 years. The longer you lock-up for the higher your governance and rewards power, vDHT!"
     }
   ],
   "footer": {}
