@@ -2,10 +2,11 @@
   "title": "Question 34:",
   "description": "Where do Synth price feeds come from?",
   "color": "0099ff",
-  "fields":
+  "fields": [
     {
       "title": "Answer:",
       "value": "Synthetix has partnered with Chainlink, whose network of independent node operators supply price feeds for all Synths."
-    },
+    }
+    ],
      "footer": {}
 }

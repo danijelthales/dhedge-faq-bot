@@ -2,6 +2,11 @@
   "title": "Question 53:",
   "description": "What are the latest stats on the Network, Protocol and Trading?",
   "color": "0099ff",
-  "url": "https://stats.dhedge.org/",
+  "fields": [
+    {
+      "title" : "Answer:",
+      "value" : "[Stats](https://stats.dhedge.org)",
+    }
   ],
-  "footer":
+  "footer": {}
+}

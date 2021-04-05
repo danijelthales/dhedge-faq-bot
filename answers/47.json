@@ -2,12 +2,11 @@
   "title": "Question 47:",
   "description": "Where can I vote on governance proposals?",
   "color": "0099ff",
-  "url": "https://snapshot.org/#/gov.dhedge.eth",
   "fields": [
     {
       "title": "Answer:",
-      "value": "All governance proposals can be found on the above URL"
+      "value": "All governance proposals can be found [here.](https://snapshot.org/#/gov.dhedge.eth)"
     }
-  ],
+ ],
   "footer": {}
 }
